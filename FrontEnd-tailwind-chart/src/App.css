@@ -1,0 +1,24 @@
+:root {
+  /* size */
+  --menu-width: 300px;
+
+  /* colors */
+  --menu-bg-color: #F0F9F8;
+  --menu-link-color: #B7BEC7;
+  --green: #00BE70;
+  --title-text-color: #35476A;
+  --sub-title-color: #CBCCD1;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.apexcharts-legend.apexcharts-align-center.apx-legend-position-left {
+  left: 35px!important;
+}
